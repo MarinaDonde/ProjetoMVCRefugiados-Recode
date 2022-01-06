@@ -1,0 +1,326 @@
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#topheader {
+    height: 10vh;
+    display: flex;
+}
+
+/*Social Icons*/
+
+.socialicons {
+    margin: auto;
+}
+
+.sociali {
+    color: #0dcaf0;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.sociali:hover {
+    background-color: #0dcaf0;
+    color: #fff;
+    border-radius: 5px;
+    transition: all .4s ease-out;
+}
+
+/*NavBar*/
+
+.navpersonalizada a{
+    color: #fff;
+}
+
+.navpersonalizada a:hover{
+    background-color: rgb(226, 43, 202);
+    color: #fff;
+    transition: all .4s ease-out;
+    border-radius: 5px;
+}
+
+.nav-link {
+    margin: 0 20px;
+}
+
+
+.idiomas img {
+    height: 30px;
+}
+
+.idiomas a:hover {
+    background-color: #0dcaf0;
+}
+
+/*Config Gerais*/
+
+.corpodosite {
+    max-width: 1000px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.ancora {
+    color: #fff;
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+h1, .card-title {
+    color: #0dcaf0;
+    text-align: center;
+    text-shadow: 5px  5px 10px rgba(0, 0, 0, 0.138);
+}
+
+h2 {
+    color: rgb(226, 43, 202);
+    text-shadow: 5px  5px 10px rgba(0, 0, 0, 0.138);
+}
+
+p {
+    text-align: justify;
+}
+
+.primeiroparagrafo {
+    margin-top: 40px;
+}
+
+/*carrossel*/
+
+.carrossel {
+    width: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.323);
+}
+
+.imgcarrossel {
+    height: 80vh;
+    object-fit: cover; 
+}
+
+.carrosselicon {
+    padding: 30px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.carrosselicon:hover {
+    color: #0dcaf0;
+    border: 1px solid #0dcaf0;
+    background-color: rgba(255, 255, 255, 0.179);
+    transition: all .4s ease-out;
+}
+
+img {
+    width: 100%;
+}
+
+/*Imagens abaixo da navbar*/
+
+.imgladoalado {
+    display: flex;
+    height: 25vh;
+    width: 100vw;
+    object-fit: cover;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.323);
+}
+
+.img20 {
+    width: 20%;
+}
+
+/*Pagina Ajuda*/
+
+.cards {
+    display: flex;
+    margin: 50px 0;  
+}
+
+.fonte a, .card-body a {
+    text-decoration: none;
+    color: #0dcaf0;   
+    margin-left: 5px;
+}
+
+.fonte a:hover{
+    background-color: #0dcaf0;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all .4s ease-out;
+}
+
+.card-body a:hover{
+    background-color: #0dcaf0;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all .4s ease-out;
+}
+
+/*Pagina Contato*/
+
+.btncontato {
+    color:#fff;
+    background-color: #0dcaf0;
+    margin-bottom: 25px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.254);
+    border: none;
+    border-radius: 5px;
+    height: 3em;
+    font-size: 1.2em;
+}
+
+.btncontato:hover {
+    background-color: rgb(226, 43, 202);
+    color: #fff;
+    transition: all .4s ease-out;
+    border: 1px solid rgb(170, 164, 164);
+}
+
+/*Pagina Login*/
+
+.paginalogin {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.loginicon {
+    margin: auto;
+    color: #0dcaf0;
+    font-size: 2em;
+}
+
+#rodapelogin {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    padding: 30px;
+}
+
+#rodapelogin {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Pagina Adm*/
+
+.btn_adm {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #0dcaf0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hiddenicons {
+    display: none;
+}
+
+/*CRUD*/
+
+.crud {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: #0dcaf0;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.138);
+}
+
+@media (max-width: 1200px) {
+
+    .imgladoalado {
+        display: none;
+    } 
+}
+
+@media (max-width: 1000px) {
+
+    .idiomas {
+        display: flex;
+        align-items: center;
+    }
+
+    .imgcarrossel {
+        object-fit: cover; 
+        height: 50vh;
+    }
+
+    .rodapenav {
+        display: none;
+    }
+
+    .hiddenicons {
+        display: flex; 
+        flex-direction: row;
+    }
+
+    .hiddenicons a{
+        color: #fff;
+        font-size: 2em; 
+    }
+
+    .hiddenicons a:hover{
+        background-color: rgb(226, 43, 202);
+        color: #fff;
+        transition: background .20s;
+        border-radius: 5px;
+    }
+
+    .flexicons {
+        display: flex; 
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+
+    li {
+        list-style: none;    
+    }
+}
+
+
+@media (max-width: 700px) {
+    
+
+    .socialicons {
+        display: flex;
+    }
+
+    .sociali {
+        padding: 3px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 80%
+    }
+
+}
+
+
+

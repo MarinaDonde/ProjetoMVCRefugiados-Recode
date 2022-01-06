@@ -1,0 +1,43 @@
+﻿@model IEnumerable<refugiados.Models.Login>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div>
+<h1>Índice</h1>
+
+<p>
+    <a asp-action="Create">Novo Cadastro</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Usuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Senha)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Senha)
+            </td>
+            <td>
+                <button class="btn btn-info" type="button" ><a asp-action="Edit" asp-route-id="@item.IdLogin" class="ancora">Editar</a></button>
+                <button class="btn btn-info" type="button" ><a asp-action="Details" asp-route-id="@item.IdLogin" class="ancora">Detalhes</a></button>
+                <button class="btn btn-info" type="button" ><a asp-action="Delete" asp-route-id="@item.IdLogin" class="ancora">Excluir</a></button>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

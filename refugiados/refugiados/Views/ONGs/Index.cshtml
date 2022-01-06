@@ -1,0 +1,73 @@
+﻿@model IEnumerable<refugiados.Models.ONG>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div>
+<h1>Índice</h1>
+
+<p>
+    <a asp-action="Create">Novo Cadastro</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Resumo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Servico1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Servico2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Servico3)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Servico4)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.URL)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Resumo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Servico1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Servico2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Servico3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Servico4)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.URL)
+            </td>
+            <td>
+               <button class="btn btn-info" type="button" ><a asp-action="Edit" asp-route-id="@item.IdONG" class="ancora">Editar</a></button>
+                <button class="btn btn-info" type="button" ><a asp-action="Details" asp-route-id="@item.IdONG" class="ancora">Detalhes</a></button>
+                <button class="btn btn-info" type="button" ><a asp-action="Delete" asp-route-id="@item.IdONG" class="ancora">Excluir</a></button>            
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

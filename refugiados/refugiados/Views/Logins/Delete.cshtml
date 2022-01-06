@@ -1,0 +1,32 @@
+﻿@model refugiados.Models.Login
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="corpodosite">
+<h1>Excluir Usuário</h1>
+
+<h3>Você tem certeza que quer excluir o usuário?</h3>
+
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Usuario)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Usuario)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Senha)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Senha)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdLogin" />
+         <input type="submit" value="Deletar" class="btn btn-danger" /> 
+        <button class="btn btn-info" type="button" ><a asp-action="Index" class="ancora">Voltar</a></button>
+    </form>
+</div>
