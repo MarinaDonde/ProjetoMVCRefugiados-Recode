@@ -39,12 +39,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZG0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/ajuda.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhanVkYS5jc2h0bWw=
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/br_ajuda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxicl9hanVkYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/cultura.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjdWx0dXJhLmNzaHRtbA==
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/br_cultura.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxicl9jdWx0dXJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/en_ajuda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlbl9hanVkYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/en_cultura.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlbl9jdWx0dXJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/en_index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlbl9pbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/es_ajuda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlc19hanVkYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/es_cultura.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlc19jdWx0dXJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/es_index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlc19pbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/Index.cshtml]
