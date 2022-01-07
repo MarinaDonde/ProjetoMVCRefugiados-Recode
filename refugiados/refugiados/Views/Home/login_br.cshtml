@@ -18,23 +18,23 @@
                     <a class="nav-link active personalnavconfig" aria-current="page" asp-action="Index" asp-controller="Home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active a1" aria-current="page" asp-action="br_cultura" asp-controller="Home">Cultura Brasileira</a>
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_br" asp-controller="Home">Cultura Brasileira</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active a2" aria-current="page" asp-action="br_ajuda" asp-controller="Home">Onde Encontrar Ajuda?</a>
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_br" asp-controller="Home">Onde Encontrar Ajuda?</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active a3" aria-current="page" asp-action="Create" asp-controller="Contatoes">Entre em contato</a>
+                    <a class="nav-link active" aria-current="page" asp-action="Create" asp-controller="Contatoes">Entre em contato</a>
                   </li>
                   <li>
-                    <a class="nav-link active" aria-current="page" asp-action="login" asp-controller="Home"><i class="bi bi-person-circle"></i></a> 
+                    <a class="nav-link active" aria-current="page" asp-action="login_br" asp-controller="Home"><i class="bi bi-person-circle"></i></a> 
                   </li>
                  </ul> 
                  <div>
                      <ul class="navbar-nav idiomas">
-                        <li><a href="#" class="nav-item br"><img src="https://img.icons8.com/fluency/48/000000/brazil-circular.png" alt="Idioma: Português-Brasil"></a></li>
-                        <li><a href="#" class="nav-item en"><img src="https://img.icons8.com/fluency/48/000000/great-britain-circular.png" alt="Language: English"></a></li>
-                        <li><a href="#" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/spain2-circular.png" alt="Idioma: Español"></a></li>                 
+                        <li><a asp-action="login_br" asp-controller="Home" class="nav-item br"><img src="https://img.icons8.com/fluency/48/000000/brazil-circular.png" alt="Idioma: Português-Brasil"></a></li>
+                        <li><a asp-action="login_en" asp-controller="Home" class="nav-item en"><img src="https://img.icons8.com/fluency/48/000000/great-britain-circular.png" alt="Language: English"></a></li>
+                        <li><a asp-action="login_es" asp-controller="Home" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/spain2-circular.png" alt="Idioma: Español"></a></li>                 
                    </ul>
                 </div>           
               </div>
@@ -62,7 +62,7 @@
           </form>
     </div>
 
-         <footer id="rodapelogin">
+    <footer id="rodapelogin">
         <nav class="navbar navbar-expand-lg bg-info navpersonalizada">
             <div class="container-fluid">
               <div class="collapse navbar-collapse rodapenav" id="navbarNav">
@@ -71,13 +71,13 @@
                     <a class="nav-link active personalnavconfig" aria-current="page" asp-action="Index" asp-controller="Home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" asp-action="br_cultura" asp-controller="Home">Cultura Brasileira</a>
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_br" asp-controller="Home">Cultura Brasileira</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" asp-action="br_ajuda" asp-controller="Home">Onde Encontrar Ajuda?</a>
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_br" asp-controller="Home">Onde Encontrar Ajuda?</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" asp-action="Create" asp-controller="Contatoes">Entre em contato</a>
+                    <a class="nav-link active" aria-current="page" asp-action="contato_br" asp-controller="Contatoes">Entre em contato</a>
                   </li>
                   <li>
                     <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> 

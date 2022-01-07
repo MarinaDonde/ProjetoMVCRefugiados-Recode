@@ -18,46 +18,56 @@ namespace refugiados.Controllers
             return View();
         }
 
-        public IActionResult en_index()
+        public IActionResult index_en()
         {
             return View();
         }
 
-        public IActionResult es_index()
+        public IActionResult index_es()
         {
             return View();
         }
 
-        public IActionResult br_ajuda()
+        public IActionResult ajuda_br()
         {
             return View();
         }
 
-        public IActionResult en_ajuda()
+        public IActionResult ajuda_en()
         {
             return View();
         }
 
-        public IActionResult es_ajuda()
+        public IActionResult ajuda_es()
         {
             return View();
         }
-        public IActionResult login()
-        {
-            return View();
-        }
-
-        public IActionResult br_cultura()
+        public IActionResult login_br()
         {
             return View();
         }
 
-        public IActionResult en_cultura()
+        public IActionResult login_en()
         {
             return View();
         }
 
-        public IActionResult es_cultura()
+        public IActionResult login_es()
+        {
+            return View();
+        }
+
+        public IActionResult cultura_br()
+        {
+            return View();
+        }
+
+        public IActionResult cultura_en()
+        {
+            return View();
+        }
+
+        public IActionResult cultura_es()
         {
             return View();
         }

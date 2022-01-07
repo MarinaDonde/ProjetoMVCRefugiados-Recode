@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Marina\Desktop\c\refugiados\refugiados
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Contatoes/contato_en.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b2VzXGNvbnRhdG9fZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Contatoes/contato_es.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b2VzXGNvbnRhdG9fZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Contatoes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b2VzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -39,44 +47,52 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhZG0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/br_ajuda.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxicl9hanVkYS5jc2h0bWw=
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/ajuda_br.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhanVkYV9ici5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/br_cultura.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxicl9jdWx0dXJhLmNzaHRtbA==
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/ajuda_en.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhanVkYV9lbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/en_ajuda.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlbl9hanVkYS5jc2h0bWw=
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/ajuda_es.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxhanVkYV9lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/en_cultura.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlbl9jdWx0dXJhLmNzaHRtbA==
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/cultura_br.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjdWx0dXJhX2JyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/en_index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlbl9pbmRleC5jc2h0bWw=
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/cultura_en.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjdWx0dXJhX2VuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/es_ajuda.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlc19hanVkYS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/es_cultura.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlc19jdWx0dXJhLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/es_index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlc19pbmRleC5jc2h0bWw=
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/cultura_es.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjdWx0dXJhX2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbi5jc2h0bWw=
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/index_en.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmRleF9lbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/index_es.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbmRleF9lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/login_br.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbl9ici5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/login_en.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbl9lbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/login_es.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbl9lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Marina/Desktop/c/refugiados/refugiados/Views/Home/Privacy.cshtml]

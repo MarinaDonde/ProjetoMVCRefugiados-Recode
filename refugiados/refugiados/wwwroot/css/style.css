@@ -243,6 +243,10 @@ footer {
     align-items: center;
 }
 
+.btncrud {
+    display: flex;
+}
+
 h3 {
     color: #0dcaf0;
     text-align: center;

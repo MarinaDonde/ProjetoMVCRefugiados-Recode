@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "N0JwSjHm+M7152cT3OOtbG9lUL67XQbWNmTrnhZLUb4=",
+  "Hash": "1Awx0a6Y8HP5G3h0dobTPNhjvKpXxZCciPIivZiXwvM=",
   "Source": "refugiados",
   "BasePath": "_content/refugiados",
   "Mode": "Default",
@@ -440,23 +440,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagens\\venezuelanos2.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Marina\\Desktop\\c\\refugiados\\refugiados\\wwwroot\\js\\contato.js",
-      "SourceId": "refugiados",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Marina\\Desktop\\c\\refugiados\\refugiados\\wwwroot\\",
-      "BasePath": "_content/refugiados",
-      "RelativePath": "js/contato.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\contato.js"
     },
     {
       "Identity": "C:\\Users\\Marina\\Desktop\\c\\refugiados\\refugiados\\wwwroot\\js\\site.js",

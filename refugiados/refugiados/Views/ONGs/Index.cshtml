@@ -7,9 +7,10 @@
 <div>
 <h1>Índice</h1>
 
-<p>
-    <a asp-action="Create">Novo Cadastro</a>
-</p>
+<div class="btncrud">
+    <button class="btn btn-info" type="button"><a asp-action="adm" asp-controller="Home" class="ancora">Voltar</a></button>
+    <button class="btn btn-info" type="button"><a asp-action="Create" asp-controller="ONGs" class="ancora">Novo Cadastro</a></button>
+</div>
 <table class="table">
     <thead>
         <tr>
@@ -67,7 +68,8 @@
                 <button class="btn btn-info" type="button" ><a asp-action="Delete" asp-route-id="@item.IdONG" class="ancora">Excluir</a></button>            
             </td>
         </tr>
-}
+}   
+
     </tbody>
 </table>
 </div>
