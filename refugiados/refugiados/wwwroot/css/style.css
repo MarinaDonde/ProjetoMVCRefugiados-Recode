@@ -1,4 +1,11 @@
 
+:root {
+    --cor0: #adb5bd;
+    --cor1: #6c757d;
+    --cor2: #212529;
+    --cor3: #343a40;
+}
+
 * {
     margin: 0 auto;
     padding: 0;
@@ -17,13 +24,13 @@
 }
 
 .sociali {
-    color: #0dcaf0;
+    color: var(--cor1);
     padding: 20px;
     cursor: pointer;
 }
 
 .sociali:hover {
-    background-color: #0dcaf0;
+    background-color: var(--cor1);
     color: #fff;
     border-radius: 5px;
     transition: all .4s ease-out;
@@ -35,8 +42,8 @@
     color: #fff;
 }
 
-.navpersonalizada a:hover{
-    background-color: rgb(226, 43, 202);
+.navpersonalizada a:hover {
+    background-color: var(--cor0);
     color: #fff;
     transition: all .4s ease-out;
     border-radius: 5px;
@@ -52,7 +59,7 @@
 }
 
 .idiomas a:hover {
-    background-color: #0dcaf0;
+    background-color: var(--cor1);
 }
 
 /*Config Gerais*/
@@ -72,22 +79,28 @@
 }
 
 h1, .card-title {
-    color: #0dcaf0;
+    color: var(--cor3);
     text-align: center;
-    text-shadow: 5px  5px 10px rgba(0, 0, 0, 0.138);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.138);
 }
 
 h2 {
-    color: rgb(226, 43, 202);
-    text-shadow: 5px  5px 10px rgba(0, 0, 0, 0.138);
+    color: var(--cor1);
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.138);
 }
 
 p {
     text-align: justify;
+    color: var(--cor2);
 }
 
 .primeiroparagrafo {
     margin-top: 40px;
+}
+
+.btn:hover {
+    color: var(--cor0);
+    transition: all .4s ease-out;
 }
 
 /*carrossel*/
@@ -109,9 +122,9 @@ p {
 }
 
 .carrosselicon:hover {
-    color: #0dcaf0;
-    border: 1px solid #0dcaf0;
-    background-color: rgba(255, 255, 255, 0.179);
+    color: var(--cor2);
+    border: 1px solid var(--cor1);
+    background-color: #49505720;
     transition: all .4s ease-out;
 }
 
@@ -142,12 +155,12 @@ img {
 
 .fonte a, .card-body a {
     text-decoration: none;
-    color: #0dcaf0;   
+    color: var(--cor1);
     margin-left: 5px;
 }
 
 .fonte a:hover{
-    background-color: #0dcaf0;
+    background-color: var(--cor1);
     padding: 10px;
     color: #fff;
     border-radius: 5px;
@@ -155,7 +168,7 @@ img {
 }
 
 .card-body a:hover{
-    background-color: #0dcaf0;
+    background-color: var(--cor1);
     padding: 10px;
     color: #fff;
     border-radius: 5px;
@@ -165,8 +178,8 @@ img {
 /*Pagina Contato*/
 
 .btncontato {
-    color:#fff;
-    background-color: #0dcaf0;
+    color: #fff;
+    background-color: var(--cor1);
     margin-bottom: 25px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.254);
     border: none;
@@ -176,7 +189,7 @@ img {
 }
 
 .btncontato:hover {
-    background-color: rgb(226, 43, 202);
+    background-color: var(--cor0);
     color: #fff;
     transition: all .4s ease-out;
     border: 1px solid rgb(170, 164, 164);
@@ -194,7 +207,7 @@ img {
 
 .loginicon {
     margin: auto;
-    color: #0dcaf0;
+    color: var(--cor1);
     font-size: 2em;
 }
 
@@ -224,13 +237,15 @@ form {
 /*Footer*/
 
 footer {
-    background-color: #0dcaf0;
+    background-color: var(--cor1);
     color: #fff;
     display: flex;
     flex-direction: column;
 }
 
-
+.rodapeP {
+    color: #fff;
+}
 .hiddenicons {
     display: none;
 }
@@ -243,12 +258,20 @@ footer {
     align-items: center;
 }
 
+.form-group button {
+    margin-top: 10px;
+}
+
+.btn-info {
+    margin-right: 10px;
+}
+
 .btncrud {
     display: flex;
 }
 
 h3 {
-    color: #0dcaf0;
+    color: var(--cor1);
     text-align: center;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.138);
 }

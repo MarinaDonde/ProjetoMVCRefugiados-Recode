@@ -51,7 +51,8 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="IdContato" />
-        <input type="submit" value="Deletar" class="btn btn-danger ancora" /> 
-        <button class="btn btn-info" type="button" ><a asp-action="Index" class="ancora">Voltar</a></button>
+        <button class="btn btn-secondary" type="button"><a asp-action="Index" class="ancora"><i class="bi bi-arrow-left-square"></i></a></button>
+        <button type="submit" class="btn btn-danger ancora"><i class="bi bi-trash"></i></button>
+        
     </form>
 </div>

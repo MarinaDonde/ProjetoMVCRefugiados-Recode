@@ -4,12 +4,13 @@
     ViewData["Title"] = "Index";
 }
 
-<div>
+<div class="corpodosite">
 <h1>Índice</h1>
 
 <div class="btncrud">
-    <button class="btn btn-info" type="button"><a asp-action="adm" asp-controller="Home" class="ancora">Voltar</a></button>
-    <button class="btn btn-info" type="button"><a asp-action="Create" asp-controller="ONGs" class="ancora">Novo Cadastro</a></button>
+    <button class="btn btn-secondary" type="button"><a asp-action="adm" asp-controller="Home" class="ancora"><i class="bi bi-arrow-left-square"></i></a></button>
+    <button class="btn btn-secondary" type="button"><a asp-action="Create" asp-controller="ONGs" class="ancora"><i class="bi bi-file-earmark-plus"></i></a></button>
+    
 </div>
 <table class="table">
     <thead>
@@ -63,9 +64,9 @@
                 @Html.DisplayFor(modelItem => item.URL)
             </td>
             <td>
-               <button class="btn btn-info" type="button" ><a asp-action="Edit" asp-route-id="@item.IdONG" class="ancora">Editar</a></button>
-                <button class="btn btn-info" type="button" ><a asp-action="Details" asp-route-id="@item.IdONG" class="ancora">Detalhes</a></button>
-                <button class="btn btn-info" type="button" ><a asp-action="Delete" asp-route-id="@item.IdONG" class="ancora">Excluir</a></button>            
+               <button class="btn btn-secondary" type="button" ><a asp-action="Edit" asp-route-id="@item.IdONG" class="ancora"><i class="bi bi-pencil-square"></i></a></button>
+                <button class="btn btn-secondary" type="button" ><a asp-action="Details" asp-route-id="@item.IdONG" class="ancora"><i class="bi bi-info-square"></i></a></button>
+                <button class="btn btn-secondary" type="button" ><a asp-action="Delete" asp-route-id="@item.IdONG" class="ancora"><i class="bi bi-trash"></i></a></button>       
             </td>
         </tr>
 }   
