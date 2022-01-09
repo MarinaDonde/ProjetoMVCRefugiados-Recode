@@ -218,20 +218,15 @@ img {
     font-size: 2em;
 }
 
-#rodapelogin {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 
 form {
     padding: 30px;
 }
 
 #rodapelogin {
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    margin-top: 100px;
+    bottom: 0;
 }
 
 /*Pagina Adm*/
@@ -291,6 +286,16 @@ h3 {
 }
 
 @media (max-width: 1000px) {
+
+    .tabs {
+        display: flex;
+    }
+
+    .corpocrud td{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 
     .idiomas {
         display: flex;
@@ -352,6 +357,10 @@ h3 {
 
     .card {
         width: 80%
+    }
+
+    .tab1 {
+        display: none;
     }
 
 }
