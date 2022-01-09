@@ -28,6 +28,11 @@ namespace refugiados.Controllers
             return View();
         }
 
+        public IActionResult index_fr()
+        {
+            return View();
+        }
+
         public IActionResult ajuda_br()
         {
             return View();
@@ -39,6 +44,11 @@ namespace refugiados.Controllers
         }
 
         public IActionResult ajuda_es()
+        {
+            return View();
+        }
+
+        public IActionResult ajuda_fr()
         {
             return View();
         }
@@ -57,6 +67,11 @@ namespace refugiados.Controllers
             return View();
         }
 
+        public IActionResult login_fr()
+        {
+            return View();
+        }
+
         public IActionResult cultura_br()
         {
             return View();
@@ -68,6 +83,11 @@ namespace refugiados.Controllers
         }
 
         public IActionResult cultura_es()
+        {
+            return View();
+        }
+
+        public IActionResult cultura_fr()
         {
             return View();
         }

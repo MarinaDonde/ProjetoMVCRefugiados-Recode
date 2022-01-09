@@ -1,8 +1,8 @@
 
 :root {
-    --cor0: #adb5bd;
-    --cor1: #6c757d;
-    --cor2: #212529;
+    --cor0: #599AFD;
+    --cor1: #0D6EFD;
+    --cor2: #0A57C9;
     --cor3: #343a40;
 }
 
@@ -15,6 +15,13 @@
 #topheader {
     height: 10vh;
     display: flex;
+}
+
+/*Logo*/
+
+#logo {
+    height: 8vh;
+    margin-top: 1vh;
 }
 
 /*Social Icons*/
@@ -79,7 +86,7 @@
 }
 
 h1, .card-title {
-    color: var(--cor3);
+    color: var(--cor2);
     text-align: center;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.138);
 }
@@ -91,7 +98,7 @@ h2 {
 
 p {
     text-align: justify;
-    color: var(--cor2);
+    color: var(--cor3);
 }
 
 .primeiroparagrafo {
@@ -262,7 +269,7 @@ footer {
     margin-top: 10px;
 }
 
-.btn-info {
+.btn {
     margin-right: 10px;
 }
 
@@ -310,7 +317,7 @@ h3 {
     }
 
     .hiddenicons a:hover{
-        background-color: rgb(226, 43, 202);
+        background-color: var(--cor0);
         color: #fff;
         transition: background .20s;
         border-radius: 5px;

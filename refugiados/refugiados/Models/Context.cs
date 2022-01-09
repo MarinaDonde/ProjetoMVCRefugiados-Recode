@@ -14,4 +14,5 @@ namespace refugiados.Models
         public DbSet<Login> Logins { get; set; }
         
     }
+
 }

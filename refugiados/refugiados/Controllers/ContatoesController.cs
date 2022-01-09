@@ -109,6 +109,28 @@ namespace refugiados.Controllers
 
         }
 
+        // GET: Contatoes/Create
+        public IActionResult contato_fr()
+        {
+            return View();
+        }
+
+        // POST: Contatoes/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> contato_fr([Bind("IdContato,Nome,Nacionalidade,Cidade,Email,Telefone,Mensagem")] Contato contato)
+        {
+
+            {
+                _context.Add(contato);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(contato_fr));
+            }
+
+        }
+
         // GET: Contatoes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {

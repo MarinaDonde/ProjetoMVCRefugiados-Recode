@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1Awx0a6Y8HP5G3h0dobTPNhjvKpXxZCciPIivZiXwvM=",
+  "Hash": "FFUbExNc3+CYD/+TUeYCzi0zchrDii19o7Xvip+coYk=",
   "Source": "refugiados",
   "BasePath": "_content/refugiados",
   "Mode": "Default",
@@ -219,6 +219,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagens\\logo-missaopaz.png"
+    },
+    {
+      "Identity": "C:\\Users\\Marina\\Desktop\\c\\refugiados\\refugiados\\wwwroot\\Imagens\\Pana.png",
+      "SourceId": "refugiados",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Marina\\Desktop\\c\\refugiados\\refugiados\\wwwroot\\",
+      "BasePath": "_content/refugiados",
+      "RelativePath": "Imagens/Pana.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagens\\Pana.png"
     },
     {
       "Identity": "C:\\Users\\Marina\\Desktop\\c\\refugiados\\refugiados\\wwwroot\\Imagens\\rgcentrooeste.jpg",
