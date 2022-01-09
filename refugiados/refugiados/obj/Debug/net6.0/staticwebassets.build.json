@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FFUbExNc3+CYD/+TUeYCzi0zchrDii19o7Xvip+coYk=",
+  "Hash": "ClJ+jAEwvaKxgec2Wl7IfVlCIjQz56JywueVP0MVK2w=",
   "Source": "refugiados",
   "BasePath": "_content/refugiados",
   "Mode": "Default",
@@ -68,12 +68,12 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Marina\\Desktop\\c\\refugiados\\refugiados\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Marina\\Desktop\\c\\refugiados\\refugiados\\wwwroot\\Imagens\\favicon.ico",
       "SourceId": "refugiados",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Marina\\Desktop\\c\\refugiados\\refugiados\\wwwroot\\",
       "BasePath": "_content/refugiados",
-      "RelativePath": "favicon.ico",
+      "RelativePath": "Imagens/favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,7 +82,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\Imagens\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\Marina\\Desktop\\c\\refugiados\\refugiados\\wwwroot\\Imagens\\haitianos.jpg",
