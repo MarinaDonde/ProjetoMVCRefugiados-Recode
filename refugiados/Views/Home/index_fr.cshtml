@@ -1,0 +1,180 @@
+﻿    <header>
+        <div id="topheader">
+            <div><img src="~/Imagens/Pana.png" alt="Logo" id="logo"></div>
+            <div class="socialicons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook sociali"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram sociali"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp sociali"></i></a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary navpersonalizada">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active personalnavconfig" aria-current="page" asp-action="index_fr" asp-controller="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_fr" asp-controller="Home">Culture Brésilienne</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_fr" asp-controller="Home">Où trouver de l'aide ?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="contato_fr" asp-controller="Contatoes">Contact</a>
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" asp-action="login_fr" asp-controller="Home"><i class="bi bi-person-circle"></i></a> 
+                  </li>
+                 </ul> 
+                 <div>
+                     <ul class="navbar-nav idiomas">
+                        <li><a asp-action="Index" asp-controller="Home" class="nav-item br"><img src="https://img.icons8.com/fluency/48/000000/brazil-circular.png" alt="Idioma: Português-Brasil"></a></li>
+                        <li><a asp-action="index_en" asp-controller="Home" class="nav-item en"><img src="https://img.icons8.com/fluency/48/000000/great-britain-circular.png" alt="Language: English"></a></li>
+                        <li><a asp-action="index_fr" asp-controller="Home" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/france-circular.png" alt="Langue: Français"></a></li>
+                        <li><a asp-action="index_es" asp-controller="Home" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/spain2-circular.png" alt="Idioma: Español"></a></li>                 
+                        
+                    </ul>
+                </div>           
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="carrossel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="~/Imagens/img1.jpeg" class="d-block w-100 imgcarrossel" alt="Diversité ethnique">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Brésil : pays de diversité ethnique</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="~/Imagens/img2.jpg" class="d-block w-100 imgcarrossel" alt="Diversité culturelle">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Brésil : Pays de diversité culturelle</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="~/Imagens/img4.jpeg" class="d-block w-100 imgcarrossel" alt="Diversité religieuse">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Brésil : Pays de diversité religieuse</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">         
+              <span aria-hidden="true"><i class="bi bi-arrow-left carrosselicon"></i></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                
+              <span aria-hidden="true"><i class="bi bi-arrow-right carrosselicon"></i></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="corpodosite">
+        <h1>Réfugiés au Brésil</h1>
+        <p class="primeiroparagrafo">Les réfugiés nouvellement arrivés au Brésil sont confrontés à des problèmes liés à la santé, à l'alimentation, au logement, aux papiers, à l'éducation, au travail décent et à l'égalité.</p>
+        <p>La plupart des réfugiés arrivent au Brésil sans papiers. Ils ont du mal à échanger leur monnaie natale contre le réal brésilien, et sans argent, ils dépendent de l'aide pour se loger et se nourrir convenablement. Des documents sont nécessaires pour accéder à l'éducation, à la santé et au travail. La langue est également un obstacle majeur pour les réfugiés qui arrivent au Brésil sans connaître la langue portugaise. Comme nous l'avons vu ci-dessus, les problèmes affectent le réfugié dans de nombreux aspects de sa vie, et c'est pourquoi nous voulons contribuer en informant le meilleur moyen d'accéder aux différents services dans une langue que le réfugié peut comprendre.</p>
+        <h2>Législation brésilienne</h2>
+        <p>La loi brésilienne sur les réfugiés n° 9474/1997 définit un réfugié comme une personne qui :</p>
+        <p>I - en raison de craintes fondées de persécution pour des raisons de race, de religion, de nationalité,
+        groupe social ou d'opinions politiques sont en dehors de leur pays de nationalité et ne peuvent
+        ou ne veut pas accepter la protection d'un tel pays;</p>
+        <p>II - n'ayant pas de nationalité et se trouvant hors du pays où il avait auparavant sa résidence habituelle,
+        ne peut ou ne veut pas y revenir, selon les circonstances antérieures;</p>
+        <p>III - en raison d'une violation grave et généralisée des droits de l'homme, il est obligé de quitter son pays
+        nationalité pour chercher refuge dans un autre pays.</p>
+        <h2>Droits des réfugiés</h2>
+        <p>Un réfugié a le droit de chercher et de recevoir refuge dans un endroit sûr. Cependant, la protection
+        International englobe plus que la sécurité physique. Les réfugiés doivent profiter au moins
+        des mêmes droits et de la même assistance de base que tout autre étranger résidant
+        légalement dans le pays, y compris la liberté d'expression et de mouvement, et la protection contre la torture
+        et les traitements dégradants.</p>
+        <p>De même, les droits économiques et sociaux qui s'appliquent aux réfugiés sont les mêmes.
+        qui s'appliquent à d'autres personnes. Les réfugiés doivent avoir accès aux soins médicaux.
+        Les réfugiés adultes doivent avoir le droit de travailler. Aucun enfant réfugié ne devrait être
+        l'enseignement privé.</p>
+        <p>Cependant, lorsqu'il n'y a pas de ressources gouvernementales disponibles pour répondre aux demandes immédiates,
+        de nombreuses ONG apportent leur aide en offrant un abri, de la nourriture, une assistance pour le retrait de documents,
+        formation professionnelle et partenariat avec les entreprises pour l'employabilité des réfugiés.</p>
+        <h2>Réfugiés au Brésil</h2>
+        <p>Le Brésil est l'un des rares pays au monde à établir des quotas annuels de réinstallation, en plus des
+        accepter ceux qui arrivent spontanément à ses frontières. La plupart des pays considèrent
+        demandes de réinstallation au cas par cas, généralement fondées sur un regroupement familial ou des liens forts
+        culturel.</p>
+        <p>Selon les données publiées par le Comité national pour les réfugiés (CONARE) dans la 6e édition du rapport
+        « Refugio em Números », fin 2020, il y avait 57 099 réfugiés reconnus au Brésil.</p>
+        <p>La nationalité avec le plus grand nombre de réfugiés reconnus, entre 2011 et 2020, est la
+        Le Venezuela (46 412), suivi des Syriens (3 594) et des Congolais (1 050). Parmi les candidats
+        du statut de réfugié, les nationalités les plus représentatives étaient les Vénézuéliens (60 %),
+        Haïtiens (23%) et Cubains (5%).</p>
+        <p class="fonte">La source: <a href="https://www.acnur.org/portugues/dados-sobre-refugio/perguntas-e-respostas/#direitos" 
+            target="_blank"><em>AcnurBrasil</em></a></p>     
+    </div>
+
+    <footer>
+        <nav class="navbar navbar-expand-lg bg-primary navpersonalizada">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse rodapenav" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active personalnavconfig" aria-current="page" asp-action="index_fr" asp-controller="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_fr" asp-controller="Home">Culture Brésilienne</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_fr" asp-controller="Home">Où trouver de l'aide ?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="contato_fr" asp-controller="Contatoes">Contact</a>
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="hiddenicons">
+            <ul class="flexicons">
+                <li >
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+                  </li>
+            </ul>
+        </div>
+        <div class="projeto">
+          <p class="rodapeP">Pana - Refugiados - Squad 27 - <a href="https://recode.org.br/" target="_blank" class="ancora">Recode</a> 2022</p>
+        </div>
+    </footer>
+
+
+
+    
+    
+
+
+    

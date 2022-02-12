@@ -1,0 +1,54 @@
+﻿@model refugiados.Models.Contato
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="corpodosite">
+<h1>Detalhes</h1>
+
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nacionalidade)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nacionalidade)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cidade)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cidade)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Telefone)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Mensagem)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Mensagem)
+        </dd>
+    </dl>
+    <div>
+         <button class="btn btn-secondary" type="button" ><a asp-action="Index" class="ancora"><i class="bi bi-arrow-left-square"></i> Voltar</a></button>
+        <button class="btn btn-secondary" type="button" ><a asp-action="Edit" asp-route-id="@Model?.IdContato" class="ancora"><i class="bi bi-pencil-square"></i> Editar</a></button>
+         
+    </div>
+</div>
+

@@ -1,0 +1,113 @@
+﻿    <header>
+        <div id="topheader">
+            <div><img src="~/Imagens/Pana.png" alt="Logo" id="logo"></div>
+            <div class="socialicons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook sociali"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram sociali"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp sociali"></i></a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary navpersonalizada">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active personalnavconfig" aria-current="page" asp-action="index_es" asp-controller="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_es" asp-controller="Home">Cultura Brasileña</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_es" asp-controller="Home">¿Dónde encontrar ayuda?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="contato_es" asp-controller="Contatoes">Entre en contacto</a>
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" asp-action="login_es" asp-controller="Home"><i class="bi bi-person-circle"></i></a> 
+                  </li>
+                 </ul> 
+                 <div>
+                     <ul class="navbar-nav idiomas">
+                        <li><a asp-action="login_br" asp-controller="Home" class="nav-item br"><img src="https://img.icons8.com/fluency/48/000000/brazil-circular.png" alt="Idioma: Português-Brasil"></a></li>
+                        <li><a asp-action="login_en" asp-controller="Home" class="nav-item en"><img src="https://img.icons8.com/fluency/48/000000/great-britain-circular.png" alt="Language: English"></a></li>
+                        <li><a asp-action="login_fr" asp-controller="Home" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/france-circular.png" alt="Langue: Français"></a></li>
+                        <li><a asp-action="login_es" asp-controller="Home" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/spain2-circular.png" alt="Idioma: Español"></a></li>                 
+                       
+                    </ul>
+                </div>           
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <div class="paginalogin">
+        <div class="divdoicone"><i class="bi bi-person-circle loginicon"></i></div>
+        <form>      
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btncontato" type="button"><a asp-action="adm" asp-controller="Home" class="ancora">Entrar</a></button>
+              </div>
+          </form>
+    </div>
+
+    <footer id="rodapelogin">
+        <nav class="navbar navbar-expand-lg bg-primary navpersonalizada">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse rodapenav" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active personalnavconfig" aria-current="page" asp-action="index_es" asp-controller="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_es" asp-controller="Home">Cultura Brasileña</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_es" asp-controller="Home">¿Dónde encontrar ayuda?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="contato_es" asp-controller="Contatoes">Entre en contacto</a>
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="hiddenicons">
+            <ul class="flexicons">
+                <li >
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+                  </li>
+            </ul>
+        </div>
+        <div class="projeto">
+          <p class="rodapeP">Pana - Refugiados - Squad 27 - <a href="https://recode.org.br/" target="_blank" class="ancora">Recode</a> 2022</p>
+        </div>
+    </footer>
+
+

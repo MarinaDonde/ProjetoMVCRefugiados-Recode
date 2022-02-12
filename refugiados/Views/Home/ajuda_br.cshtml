@@ -1,0 +1,187 @@
+﻿    <header>
+        <div id="topheader">
+            <div><img src="~/Imagens/Pana.png" alt="Logo" id="logo"></div>
+            <div class="socialicons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook sociali"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram sociali"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp sociali"></i></a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary navpersonalizada">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active personalnavconfig" aria-current="page" asp-action="Index" asp-controller="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_br" asp-controller="Home">Cultura Brasileira</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_br" asp-controller="Home">Onde Encontrar Ajuda?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="Create" asp-controller="Contatoes">Entre em contato</a>
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" asp-action="login_br" asp-controller="Home"><i class="bi bi-person-circle"></i></a> 
+                  </li>
+                 </ul> 
+                 <div>
+                     <ul class="navbar-nav idiomas">
+                        <li><a asp-action="ajuda_br" asp-controller="Home" class="nav-item br"><img src="https://img.icons8.com/fluency/48/000000/brazil-circular.png" alt="Idioma: Português-Brasil"></a></li>
+                        <li><a asp-action="ajuda_en" asp-controller="Home" class="nav-item en"><img src="https://img.icons8.com/fluency/48/000000/great-britain-circular.png" alt="Language: English"></a></li>
+                        <li><a asp-action="ajuda_fr" asp-controller="Home" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/france-circular.png" alt="Langue: Français"></a></li>
+                        <li><a asp-action="ajuda_es" asp-controller="Home" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/spain2-circular.png" alt="Idioma: Español"></a></li> 
+                        
+                   </ul>
+                </div>           
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <div class="imgladoalado">
+        <img src="~/Imagens/sirios.jpg" class="rounded mx-auto d-block img20" alt="Sírios no Brasil">
+        <img src="~/Imagens/haitianos.jpg" class="rounded mx-auto d-block img20" alt="Haitianos no Brasil">
+        <img src="~/Imagens/venezuelakids.jpeg" class="rounded mx-auto d-block img20" alt="Crianças venezuelanas no Brasil">
+        <img src="~/Imagens/sirios2.jpg" class="rounded mx-auto d-block img20" alt="Sírios no Brasil">
+        <img src="~/Imagens/venezuelanos.jpg" class="rounded mx-auto d-block img20" alt="Venezuelanos no Brasil">
+    </div>
+    <div class="corpodosite">
+        <h1>Onde encontrar ajuda?</h1>
+        <p>Nesta seção, indicamos as melhores ONGs Brasileiras para atender aos refugiados recém-chegados ao país.</p>
+        <div class="cards">
+        
+        <div class="card" style="width: 18rem;">
+            <a href="https://missaonspaz.org/" class="card-link" target="_blank"><img src="~/Imagens/logo-missaopaz.png" class="card-img-top" alt="Logo Missão Paz"/></a>
+            <div class="card-body">
+              <h5 class="card-title">Missão Paz</h5>
+              <p class="card-text">A Missão Paz conta com um longo histórico de atuação, a partir do qual se 
+                  desenvolveram setores especializados para melhor atender à comunidade migrante em São Paulo.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Aulas de Português</li>
+              <li class="list-group-item">Capacitação e Renda</li>
+              <li class="list-group-item">Orientação Jurídica</li>
+              <li class="list-group-item">Abrigo e Documentação</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://missaonspaz.org/" class="card-link" target="_blank">Missão Paz</a>
+            </div>
+          </div>
+          
+          <div class="card" style="width: 18rem;">
+            <a href="https://compassiva.org.br/" class="card-link" target="_blank"><img src="~/Imagens/logo-compassiva.png" class="card-img-top" alt="Logo Compassiva"></a>
+            <div class="card-body">
+              <h5 class="card-title">Compassiva</h5>
+              <p class="card-text">Localizada em São Paulo, a Compassiva prioriza o atendimento a crianças, adolescentes, 
+                  mulheres e refugiados em situação de vulnerabilidade.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Aulas de Português</li>
+                <li class="list-group-item">Capacitação e Renda</li>
+                <li class="list-group-item">Orientação Jurídica</li>
+                <li class="list-group-item">Saúde, Alimentação e Moradia</li>
+              </ul>
+            <div class="card-body">
+              <a href="https://compassiva.org.br/" class="card-link" target="_blank">Compassiva</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <a href="https://adus.org.br/" class="card-link" target="_blank"><img src="~/Imagens/logo-adus.png" class="card-img-top" alt="Logo Instituto Adus"></a>
+            <div class="card-body">
+              <h5 class="card-title">Instituto Adus</h5>
+              <p class="card-text">Localizada em São Paulo, o Instituto Adus promove a integração de refugiados
+              na sociedade brasileira há mais de 10 anos.    
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Aulas de Português</li>
+                <li class="list-group-item">Capacitação Profissional</li>
+                <li class="list-group-item">Orientação Jurídica</li>
+                <li class="list-group-item">Parcerias com empresas</li>
+              </ul>
+            <div class="card-body">
+              <a href="https://adus.org.br/" class="card-link" target="_blank">Adus</a>
+            </div>
+          </div>
+        </div>
+        <div>
+            <h2>Chegando no Brasil</h2>
+            <p>A Lei Brasileira Título IV Art 17 prevê: O estrangeiro, assim que chegar ao Brasil, deverá se apresentar à Polícia Federal e externar vontade de solicitar o reconhecimento da condição de refugiado.</p>
+            <p>Art 21 - Recebida a solicitação de refúgio, o Departamento de Polícia Federal emitirá protocolo em 
+            favor do solicitante e de seu grupo familiar que se encontre no território nacional, o qual autorizará a estada até a decisão final do processo.</p>
+            <p>O protocolo permitirá ao Ministério do Trabalho expedir carteira de trabalho provisória, para o exercício de atividade remunerada no País.</p>
+            <p class="fonte">Fonte:<a href="http://www.planalto.gov.br/ccivil_03/leis/l9474.htm" target="_blank"><em>Planalto</em></a></p>
+            <h2>Saúde</h2>
+            <p>Os refugiados, assim como qualquer estrangeiro, podem e devem ser atendidos
+            em quaisquer hospitais e postos de saúde públicos em todo o território nacional.</p>
+            <h2>Educação</h2>
+            <p>Os refugiados têm o direito de frequentar as escolas públicas de ensino fundamental e médio, bem como de participar de programas públicos de capacitação técnica e profissional. Também podem acessar instituições de ensino superior, nos mesmos moldes dos brasileiros ou através de programas de ingresso especiais para refugiados.
+            </p>
+            <h2>Religião</h2>
+            <p>O Brasil é um país laico que assegura a plena liberdade de culto, religião e crença.</p>
+            <h2>Documentação</h2>
+            <p>Os refugiados reconhecidos no Brasil têm direito de obter o Registro Nacional de Estrangeiros (RNE), documento de identidade dos estrangeiros no Brasil; uma Carteira de Trabalho e Previdência Social definitiva (CTPS); um número de Cadastro de Pessoa Física (CPF) e um documento de viagem.</p>
+            <h2>Residência Permanente</h2>
+            <p>Os refugiados reconhecidos no Brasil poderão solicitar a residência permanente após 4 (quatro) anos da data do reconhecimento da sua condição de refugiado.</p>
+            <p class="fonte">Fonte: <a href="https://www.acnur.org/portugues/wp-content/uploads/2018/02/Cartilha-para-Refugiados-no-Brasil_ACNUR-2014.pdf" target="_blank"><em>Acnur</em></a></p>
+        </div>
+    </div>
+
+    <footer>
+        <nav class="navbar navbar-expand-lg bg-primary navpersonalizada">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse rodapenav" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active personalnavconfig" aria-current="page" asp-action="Index" asp-controller="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_br" asp-controller="Home">Cultura Brasileira</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_br" asp-controller="Home">Onde Encontrar Ajuda?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="Create" asp-controller="Contatoes">Entre em contato</a>
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="hiddenicons">
+            <ul class="flexicons">
+                <li >
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+                  </li>
+            </ul>
+        </div>
+        <div class="projeto">
+          <p class="rodapeP">Pana - Refugiados - Squad 27 - <a href="https://recode.org.br/" target="_blank" class="ancora">Recode</a> 2022</p>
+        </div>
+    </footer>
+
+
+

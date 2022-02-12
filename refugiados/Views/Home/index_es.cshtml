@@ -1,0 +1,160 @@
+﻿    <header>
+        <div id="topheader">
+            <div><img src="~/Imagens/Pana.png" alt="Logo" id="logo"></div>
+            <div class="socialicons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook sociali"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram sociali"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp sociali"></i></a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary navpersonalizada">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active personalnavconfig" aria-current="page" asp-action="index_es" asp-controller="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_es" asp-controller="Home">Cultura Brasileña</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_es" asp-controller="Home">¿Dónde encontrar ayuda?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="contato_es" asp-controller="Contatoes">Entre en contacto</a>
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" asp-action="login_es" asp-controller="Home"><i class="bi bi-person-circle"></i></a> 
+                  </li>
+                 </ul> 
+                 <div>
+                     <ul class="navbar-nav idiomas">
+                        <li><a asp-action="Index" asp-controller="Home" class="nav-item br"><img src="https://img.icons8.com/fluency/48/000000/brazil-circular.png" alt="Idioma: Português-Brasil"></a></li>
+                        <li><a asp-action="index_en" asp-controller="Home" class="nav-item en"><img src="https://img.icons8.com/fluency/48/000000/great-britain-circular.png" alt="Language: English"></a></li>
+                        <li><a asp-action="index_fr" asp-controller="Home" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/france-circular.png" alt="Langue: Français"></a></li>
+                        <li><a asp-action="index_es" asp-controller="Home" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/spain2-circular.png" alt="Idioma: Español"></a></li>                 
+                        
+                    </ul>
+                </div>           
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="carrossel">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="~/Imagens/img1.jpeg" class="d-block w-100 imgcarrossel" alt="Diversidad étnica">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Brasil: país de diversidad étnica</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="~/Imagens/img2.jpg" class="d-block w-100 imgcarrossel" alt="Diversidad Cultural">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Brasil: país de diversidad cultural</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="~/Imagens/img4.jpeg" class="d-block w-100 imgcarrossel" alt="Diversidade Religiosa">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Brasil: país de diversidad religiosa</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">         
+              <span aria-hidden="true"><i class="bi bi-arrow-left carrosselicon"></i></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                
+              <span aria-hidden="true"><i class="bi bi-arrow-right carrosselicon"></i></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="corpodosite">
+        <h1>Refugiados en Brasil</h1>
+        <p class="primeiroparagrafo">Los refugiados recién llegados a Brasil enfrentan problemas relacionados con la salud, la alimentación, la vivienda, la documentación, la educación, el trabajo decente y la igualdad.</p>
+        <p>La mayoría de los refugiados llegan a Brasil sin documentos. Les resulta difícil cambiar su moneda nativa por el real brasileño y, sin dinero, dependen de la ayuda para conseguir una vivienda y comida dignas. Los documentos son necesarios para acceder a la educación, la salud y el trabajo. El idioma también es una barrera importante para los refugiados que llegan a Brasil sin conocimiento del idioma portugués. Como vimos anteriormente, los problemas afectan al refugiado en muchos aspectos de su vida, y por eso queremos contribuir informando de la mejor manera para acceder a los diferentes servicios en un idioma que el refugiado pueda entender.</p>
+        <h2>Legislación Brasileña</h2>
+        <p>La ley brasileña de refugiados núm. 9474/1997 define a un refugiado como una persona que:</p>
+        <p>I - debido a temores fundados de persecución por motivos de raza, religión, nacionalidad, grupo social u opiniones políticas, se encuentran fuera de su país de nacionalidad y no pueden o no quieren aceptar la protección de dicho país;</p>
+        <p>II - no tener nacionalidad y estar fuera del país donde anteriormente tenía su residencia habitual, no puede o no quiere regresar a él, por circunstancias anteriores;</p>
+        <p>III - debido a una grave y generalizada violación de los derechos humanos, se ve obligado a salir de su país de nacionalidad para buscar refugio en otro país.</p>
+        <h2>Derechos de los refugiados</h2>
+        <p>Un refugiado tiene derecho a buscar y recibir refugio en un lugar seguro. Sin embargo, la protección internacional abarca más que la seguridad física. Los refugiados deben disfrutar al menos de los mismos derechos y asistencia básica que cualquier otro extranjero que resida legalmente en el país, incluida la libertad de expresión y movimiento, y protección contra la tortura y los tratos degradantes.</p>
+        <p>Asimismo, los derechos económicos y sociales que se aplican a los refugiados son los mismos que se aplican a otras personas. Los refugiados deben tener acceso a la atención médica. Las personas adultas refugiadas deben tener derecho a trabajar. Ningún niño refugiado debe ser privado de la educación.</p>
+        <p>Sin embargo, cuando no hay recursos gubernamentales disponibles para satisfacer las demandas inmediatas, muchas ONG brindan asistencia ofreciendo refugio, alimentos, asistencia en la remoción de documentos, capacitación profesional y asociaciones con empresas para la empleabilidad de los refugiados.</p>
+        <h2>Refugiados en Brasil</h2>
+        <p>Brasil es uno de los pocos países del mundo que establece cuotas anuales de reasentamiento, además de aceptar a quienes llegan espontáneamente a sus fronteras. La mayoría de los países consideran las solicitudes de reasentamiento caso por caso, generalmente basadas en la reunificación familiar o una fuerte cultura corbatas.</p>
+        <p>Según datos publicados por el Comité Nacional de Refugiados (CONARE) en la 6ª edición del informe “Refúgio em Números”, a fines de 2020 había 57.099 refugiados reconocidos en Brasil.</p>
+        <p>La nacionalidad con mayor número de refugiados reconocidos, entre 2011 y 2020, es la venezolana (46.412), seguida de la siria (3.594) y la congoleña (1.050). Entre los solicitantes de la condición de refugiado, las nacionalidades más representativas fueron las venezolanas (60%). , Haitianos (23%) y cubanos (5%).</p>
+        <p class="fonte">Fuente: <a href="https://www.acnur.org/portugues/dados-sobre-refugio/perguntas-e-respostas/#direitos" 
+            target="_blank"><em>AcnurBrasil</em></a></p>     
+    </div>
+
+    <footer>
+        <nav class="navbar navbar-expand-lg bg-primary navpersonalizada">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse rodapenav" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active personalnavconfig" aria-current="page" asp-action="index_es" asp-controller="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_es" asp-controller="Home">Cultura Brasileña</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_es" asp-controller="Home">¿Dónde encontrar ayuda?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="contato_es" asp-controller="Contatoes">Entre en contacto</a>
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="hiddenicons">
+            <ul class="flexicons">
+                <li >
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+                  </li>
+            </ul>
+        </div>
+        <div class="projeto">
+          <p class="rodapeP">Pana - Refugiados - Squad 27 - <a href="https://recode.org.br/" target="_blank" class="ancora">Recode</a> 2022</p>
+        </div>
+    </footer>
+
+
+
+    
+    
+
+
+    

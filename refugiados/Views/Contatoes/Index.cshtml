@@ -1,0 +1,70 @@
+﻿@model IEnumerable<refugiados.Models.Contato>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="corpodosite corpocrud">
+<h1>Índice</h1>
+
+
+<table class="table">
+    <thead class="tabs">
+        <tr class="tab1">
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nacionalidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mensagem)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+    <thead class="tabs">    
+        <tr class="tab2">
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nacionalidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mensagem)
+            </td>
+            <td>
+                <button class="btn btn-secondary" type="button" ><a asp-action="Edit" asp-route-id="@item.IdContato" class="ancora"><i class="bi bi-pencil-square"></i> Editar</a></button>
+                <button class="btn btn-secondary" type="button" ><a asp-action="Details" asp-route-id="@item.IdContato" class="ancora"><i class="bi bi-info-square"></i> Info</a></button>
+                <button class="btn btn-secondary" type="button" ><a asp-action="Delete" asp-route-id="@item.IdContato" class="ancora"><i class="bi bi-trash"></i> Excluir</a></button>
+            </td>
+        </tr>
+    </thead>
+}
+    <div>
+        <button class="btn btn-secondary" type="button"><a asp-action="adm" asp-controller="Home" class="ancora"><i class="bi bi-arrow-left-square"></i> Voltar</a></button>
+    </div>
+    </tbody>
+</table>
+</div>

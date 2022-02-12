@@ -1,0 +1,179 @@
+﻿    <header>
+        <div id="topheader">
+            <div><img src="~/Imagens/Pana.png" alt="Logo" id="logo"></div>
+            <div class="socialicons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook sociali"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram sociali"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp sociali"></i></a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary navpersonalizada">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active personalnavconfig" aria-current="page" asp-action="index_fr" asp-controller="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_fr" asp-controller="Home">Culture Brésilienne</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_fr" asp-controller="Home">Où trouver de l'aide ?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="contato_fr" asp-controller="Contatoes">Contact</a>
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" asp-action="login_fr" asp-controller="Home"><i class="bi bi-person-circle"></i></a> 
+                  </li>
+                 </ul> 
+                 <div>
+                     <ul class="navbar-nav idiomas">
+                        <li><a asp-action="ajuda_br" asp-controller="Home" class="nav-item br"><img src="https://img.icons8.com/fluency/48/000000/brazil-circular.png" alt="Idioma: Português-Brasil"></a></li>
+                        <li><a asp-action="ajuda_en" asp-controller="Home" class="nav-item en"><img src="https://img.icons8.com/fluency/48/000000/great-britain-circular.png" alt="Language: English"></a></li>
+                        <li><a asp-action="ajuda_fr" asp-controller="Home" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/france-circular.png" alt="Langue: Français"></a></li>
+                        <li><a asp-action="ajuda_es" asp-controller="Home" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/spain2-circular.png" alt="Idioma: Español"></a></li>                 
+                        
+                    </ul>
+                </div>           
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <div class="imgladoalado">
+        <img src="~/Imagens/sirios.jpg" class="rounded mx-auto d-block img20" alt="Syriens au Brésil">
+        <img src="~/Imagens/haitianos.jpg" class="rounded mx-auto d-block img20" alt="Haïtiens au Brésil">
+        <img src="~/Imagens/venezuelakids.jpeg" class="rounded mx-auto d-block img20" alt="Enfants vénézuéliens au Brésil">
+        <img src="~/Imagens/sirios2.jpg" class="rounded mx-auto d-block img20" alt="Syriens au Brésil">
+        <img src="~/Imagens/venezuelanos.jpg" class="rounded mx-auto d-block img20" alt="Vénézuéliens au Brésil">
+    </div>
+    <div class="corpodosite">
+        <h1>Où puis-je trouver de l'aide ?</h1>
+        <p>Dans cette section, nous indiquons les meilleures ONG brésiliennes pour servir les réfugiés nouvellement arrivés dans le pays.</p>
+        <div class="cards">
+        
+        <div class="card" style="width: 18rem;">
+            <a href="https://missaonspaz.org/" class="card-link" target="_blank"><img src="~/Imagens/logo-missaopaz.png" class="card-img-top" alt="Logo Missão Paz"/></a>
+            <div class="card-body">
+              <h5 class="card-title">Missão Paz</h5>
+              <p class="card-text">Mission Paz a une longue histoire de performance, à partir de laquelle elle développé des secteurs spécialisés pour mieux servir la communauté des migrants à São Paulo.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cours de portugais</li>
+              <li class="list-group-item">Formation et revenu</li>
+              <li class="list-group-item">Conseils juridiques</li>
+              <li class="list-group-item">Abri et documentation</li>
+            </ul>
+            <div class="card-body">
+              <a href="https://missaonspaz.org/" class="card-link" target="_blank">Missão Paz</a>
+            </div>
+          </div>
+          
+          <div class="card" style="width: 18rem;">
+            <a href="https://compassiva.org.br/" class="card-link" target="_blank"><img src="~/Imagens/logo-compassiva.png" class="card-img-top" alt="Logo Compassiva"></a>
+            <div class="card-body">
+              <h5 class="card-title">Compassiva</h5>
+              <p class="card-text">Situé à São Paulo, Compassiva privilégie l'assistance aux enfants, adolescents femmes vulnérables et réfugiées.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cours de portugais</li>
+                <li class="list-group-item">Formation et revenu</li>
+                <li class="list-group-item">Conseils juridiques</li>
+                <li class="list-group-item">Santé, alimentation et logement</li>
+              </ul>
+            <div class="card-body">
+              <a href="https://compassiva.org.br/" class="card-link" target="_blank">Compassiva</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <a href="https://adus.org.br/" class="card-link" target="_blank"><img src="~/Imagens/logo-adus.png" class="card-img-top" alt="Logo Instituto Adus"></a>
+            <div class="card-body">
+              <h5 class="card-title">Instituto Adus</h5>
+              <p class="card-text">Situé à São Paulo, l'Instituto Adus favorise l'intégration des réfugiés dans la société brésilienne depuis plus de 10 ans.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cours de portugais</li>
+                <li class="list-group-item">Formation et revenu</li>
+                <li class="list-group-item">Conseils juridiques</li>
+                <li class="list-group-item">Partenariats avec les entreprises</li>
+              </ul>
+            <div class="card-body">
+              <a href="https://adus.org.br/" class="card-link" target="_blank">Adus</a>
+            </div>
+          </div>
+        </div>
+        <div>
+            <h2>Arrivée au Brésil</h2>
+            <p>Le titre IV de l'article 17 de la loi brésilienne prévoit : Une fois arrivés au Brésil, les étrangers doivent se présenter à la police fédérale et exprimer leur volonté de demander la reconnaissance de leur statut de réfugié.</p>
+            <p>Art 21 - Une fois la demande d'asile reçue, le Département de la Police Fédérale établira un protocole en faveur du demandeur et de son groupe familial situé sur le territoire national, qui autorisera le séjour jusqu'à la décision finale de la procédure.</p>
+            <p>Le protocole permettra au ministère du Travail de délivrer un permis de travail provisoire, pour l'exercice d'une activité rémunérée dans le pays.</p>
+            <p class="fonte">La source:<a href="http://www.planalto.gov.br/ccivil_03/leis/l9474.htm" target="_blank"><em>Planalto</em></a></p>
+            <h2>Santé</h2>
+            <p>Les réfugiés, comme tout étranger, peuvent et doivent être soignés dans tous les hôpitaux et postes de santé publique du pays.</p>
+            <h2>Éducation</h2>
+            <p>Les réfugiés ont le droit de fréquenter les écoles primaires et secondaires publiques, ainsi que de participer aux programmes publics de formation technique et professionnelle. Ils peuvent également accéder à des établissements d'enseignement supérieur, à l'instar des Brésiliens ou via des programmes d'admission spéciaux pour les réfugiés.</p>
+            <h2>Religion</h2>
+            <p>Le Brésil est un pays laïc qui garantit la pleine liberté de culte, de religion et de conviction.</p>
+            <h2>Documentation</h2>
+            <p>Les réfugiés reconnus au Brésil ont le droit d'obtenir le Registre national des étrangers (RNE), un document d'identité pour les étrangers au Brésil ; une carte permanente de travail et de sécurité sociale (CTPS) ; un numéro</p>
+            <h2>Résidence permanente</h2>
+            <p>Les réfugiés reconnus au Brésil peuvent demander la résidence permanente après 4 (quatre) ans à compter de la date de reconnaissance de leur statut de réfugié.</p>
+            <p class="fonte">La source: <a href="https://www.acnur.org/portugues/wp-content/uploads/2018/02/Cartilha-para-Refugiados-no-Brasil_ACNUR-2014.pdf" target="_blank"><em>Acnur</em></a></p>
+        </div>
+    </div>
+
+    <footer>
+        <nav class="navbar navbar-expand-lg bg-primary navpersonalizada">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse rodapenav" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active personalnavconfig" aria-current="page" asp-action="index_fr" asp-controller="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_fr" asp-controller="Home">Culture Brésilienne</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_fr" asp-controller="Home">Où trouver de l'aide ?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="contato_fr" asp-controller="Contatoes">Contact</a>
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="hiddenicons">
+            <ul class="flexicons">
+                <li >
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+                  </li>
+            </ul>
+        </div>
+        <div class="projeto">
+          <p class="rodapeP">Pana - Refugiados - Squad 27 - <a href="https://recode.org.br/" target="_blank" class="ancora">Recode</a> 2022</p>
+        </div>
+    </footer>
+
+
+

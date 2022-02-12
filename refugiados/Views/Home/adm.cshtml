@@ -1,0 +1,51 @@
+﻿    <header>
+        <div id="topheader">
+            <div><img src="~/Imagens/Pana.png" alt="Logo" id="logo"></div>
+            <div class="socialicons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook sociali"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram sociali"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp sociali"></i></a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary navpersonalizada">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active personalnavconfig" aria-current="page" asp-action="Index" asp-controller="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_br" asp-controller="Home">Cultura Brasileira</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_br" asp-controller="Home">Onde Encontrar Ajuda?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="Create" asp-controller="Contatoes">Entre em contato</a>
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" asp-action="login_br" asp-controller="Home"><i class="bi bi-person-circle"></i></a> 
+                  </li>
+                 </ul>          
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+<div class="corpodosite">
+    <div class="btn_adm">
+       <div class="d-grid gap-2">
+            <button class="btncontato" type="button"><a asp-action="Index" asp-controller="Contatoes" class="ancora">Mensagens</a></button>
+       </div>
+       <div class="d-grid gap-2">
+            <button class="btncontato" type="button"><a asp-action="Index" asp-controller="ONGs" class="ancora">Cadastrar ONGs</a></button>
+       </div>
+       <div class="d-grid gap-2">
+            <button class="btncontato" type="button"><a asp-action="Index" asp-controller="Logins" class="ancora">Cadastrar Login</a></button>
+       </div>
+    </div>
+</div>

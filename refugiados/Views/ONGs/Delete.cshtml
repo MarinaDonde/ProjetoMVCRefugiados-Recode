@@ -1,0 +1,62 @@
+﻿@model refugiados.Models.ONG
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="corpodosite">
+<h1>Excluir ONG</h1>
+
+<h3>Você tem certeza que quer excluir a ONG?</h3>
+
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Resumo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Resumo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Servico1)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Servico1)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Servico2)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Servico2)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Servico3)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Servico3)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Servico4)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Servico4)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.URL)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.URL)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdONG" />
+        <button class="btn btn-secondary" type="button"><a asp-action="Index" class="ancora"><i class="bi bi-arrow-left-square"></i> Voltar</a></button>
+        <button type="submit" class="btn btn-danger ancora"><i class="bi bi-trash"></i> Excluir</button>
+    </form>
+</div>
