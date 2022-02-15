@@ -1,0 +1,141 @@
+﻿@model ProjetoPana.Models.Contato
+
+    <header>
+        <div id="topheader">
+            <div><img src="~/Imagens/Pana.png" alt="Logo" id="logo"></div>
+            <div class="socialicons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook sociali"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram sociali"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp sociali"></i></a>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary navpersonalizada">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active personalnavconfig" aria-current="page" asp-action="index_en" asp-controller="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="cultura_en" asp-controller="Home">Brazilian Culture</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="ajuda_en" asp-controller="Home">Where to Find Help?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" asp-action="contato_en" asp-controller="Contatoes">Contact</a>
+                  </li>
+                 </ul> 
+                 <div>
+                     <ul class="navbar-nav idiomas">
+                        <li><a asp-action="Create" asp-controller="Contatoes" class="nav-item br"><img src="https://img.icons8.com/fluency/48/000000/brazil-circular.png" alt="Idioma: Português-Brasil"></a></li>
+                        <li><a asp-action="contato_en" asp-controller="Contatoes" class="nav-item en"><img src="https://img.icons8.com/fluency/48/000000/great-britain-circular.png" alt="Language: English"></a></li>
+                        <li><a asp-action="contato_fr" asp-controller="Contatoes" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/france-circular.png" alt="Langue: Français"></a></li>
+                        <li><a asp-action="contato_es" asp-controller="Contatoes" class="nav-item es"><img src="https://img.icons8.com/color/48/000000/spain2-circular.png" alt="Idioma: Español"></a></li>                                   
+                    </ul>
+                </div>           
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div class="imgladoalado">
+        <img src="~/Imagens/sirios1.jpg" class="rounded mx-auto d-block img20" alt="Syrians in Brazil">
+        <img src="~/Imagens/sirio.jpg" class="rounded mx-auto d-block img20" alt="Syrian in Brazil">
+        <img src="~/Imagens/haitianos1.jpg" class="rounded mx-auto d-block img20" alt="Haitians in Brazil">
+        <img src="~/Imagens/venezuelanos1.jpg" class="rounded mx-auto d-block img20" alt="Venezuelans in Brazil">
+        <img src="~/Imagens/venezuelanos2.jpg" class="rounded mx-auto d-block img20" alt="Venezuelans in Brazil">
+    </div>
+    <div class="corpodosite">
+        <h1>Contact:</h1>
+        <div class="mb-3">
+          <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="Nome" class="form-label">Name</label>
+                <input asp-for="Nome" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Nacionalidade" class="form-label">Nationality</label>
+                <input asp-for="Nacionalidade" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your origin country">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Cidade" class="form-label">City</label>
+                <input asp-for="Cidade" type="text" class="form-control i3" id="exampleFormControlInput1" placeholder="Enter the city that you are">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">Email</label>
+                <input asp-for="Email" type="email" class="form-control i4" id="exampleFormControlInput1" placeholder="user@example.com">
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Telefone" class="form-label">Phone Number</label>
+                <input asp-for="Telefone" type="text" class="form-control i5" id="exampleFormControlInput1" placeholder="Enter your phone number">                
+            </div>
+            <div class="mb-3">
+                <label asp-for="Mensagem" class="form-label">Left your message:</label>
+                <textarea asp-for="Mensagem" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="d-grid gap-2">
+                <input class="btncontato btn1" type="submit" value="Submit"/>
+            </div> 
+          </form>
+          </div>           
+    </div>
+
+    <footer>
+        <nav class="navbar navbar-expand-lg bg-primary navpersonalizada">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse rodapenav" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active personalnavconfig" aria-current="page" asp-action="index_en" asp-controller="Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active a1" aria-current="page" asp-action="cultura_en" asp-controller="Home">Brazilian Culture</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active a2" aria-current="page" asp-action="ajuda_en" asp-controller="Home">Where to Find Help?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active a3" aria-current="page" asp-action="contato_en" asp-controller="Contatoes">Contact</a>
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="hiddenicons">
+            <ul class="flexicons">
+                <li >
+                    <a class="nav-link active" aria-current="page" href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a> 
+                  </li>
+                  <li>
+                    <a class="nav-link active" aria-current="page" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a> 
+                  </li>
+            </ul>
+        </div>
+        <div class="projeto">
+          <p class="rodapeP">Pana - Refugees - Squad 27 - <a href="https://recode.org.br/" target="_blank" class="ancora">Recode</a> 2022</p>
+        </div>
+    </footer>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
