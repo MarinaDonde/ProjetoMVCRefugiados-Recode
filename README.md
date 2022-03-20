@@ -41,7 +41,7 @@ alimentação, moradia, documentação, ensino da língua portuguesa e até capa
 
 ### Diagrama de Relações (Banco de Dados):
 
-![Pana](https://i.imgur.com/meJdB1U.jpg)
+![Pana](https://i.imgur.com/53FxcFB.jpg)
 
 ## Autores
 
